@@ -12,7 +12,7 @@ Docker version 17.12.0-ce, build c97c6d6
 
 ## 啟動專案
 ```
-git clone jerry80409/demo-docker-elk.git
+git clone git@github.com:jerry80409/demo-docker-elk.git
 cd  demo-docker-elk
 chmod +x mvnw *.sh
 
