@@ -1,0 +1,12 @@
+# sample - https://segmentfault.com/a/1190000009165070
+jedis:
+    host: localhost
+    port: 6379
+    password: foobar
+    connection-timeout: 1000
+    pool:
+        max-total: 600
+        max-idle: 300
+        min-idle: 20
+        max-wait-millis: 1000
+        block-when-exhausted: true
